@@ -20,7 +20,7 @@ def randomprime(x,y):
             p=1000
         
         else:
-        return c
+        return j
         break
         else:
             p=1000
