@@ -1,30 +1,32 @@
 #PRIME NUMBER QUESTION
 
+#PRIME NUMBER QUESTION
+
 import random
 def randomprime(x,y):  
     
-    x=1000
+    l=1000
     
-    while x==1000:
+    while l==1000:
         
-    control = 0
+    limit=0
         
-    c = int(random.randint(x,y))
+    j = int(random.randint(x,y))
         
-        if c!=1:
+        if j!=1:
             for i in range(2,j):
                 if ( j%i==0 ):  
-                    control=control+1  
+                    limit=limit+1  
 
-            if (control!=0):
+            if (limit!=0):
             p=1000
         
         else:
-        return j
+        return c
         break
         else:
             p=1000
 
 for w in range(3): 
   for v in range(3):
-        print(randomprime(1,1000), end=" ")    
+        print(randomprime(1,1000), end=" ")  
