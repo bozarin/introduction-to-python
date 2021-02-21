@@ -9,6 +9,7 @@ def main():
 name=input("Please enter your name: ")
 print("Welcome {name}, this is the Hangman game!")
 
+        
 keyword=input("Please enter a word: ")
 print("_ "*(len(keyword)))
 
@@ -39,3 +40,25 @@ def display(key, guessed_words):
         print("\n")
 
         return word_displayed
+    
+    class Hangman(object):
+
+    Hangman_Versions = ["", "O", "O-", "O-|", "O-|-", "O-|-<"]
+
+    def __init__(guess):
+        self.hangman = self.Hangman_Versions[0]
+
+    def draw(self, incorrect_guesses):
+       
+
+    guess.hangman = guess.Hangman_Version[incorrect_guesses]
+    
+    print guess.hangman
+    
+        if 
+        
+        incorrect_guesses == 5 :
+            print( "You have been killed :(" )
+    
+    
+    
