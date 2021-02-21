@@ -21,7 +21,23 @@ lim2 = False
 
 for i in range(0 , 1000) :
   
-  if i >=0 and i<
+  if i >=0 and i<500 :
+    
+    if lim1 == False:
+      print("prime_1: " , end = " " )
+      lim1 = True
+      
+      
+      prime_1(i)
+      else:
+        if lim2==False:
+          print(prime_2 : , end="")
+          lim2 = True 
+          
+ prime_2(i)
+
+
+print()
 
 
 
