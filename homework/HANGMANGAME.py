@@ -45,20 +45,26 @@ def display(key, guessed_words):
 
     Hangman_Versions = ["", "O", "O-", "O-|", "O-|-", "O-|-<"]
 
-    def __init__(guess):
+    def __init__(sguess):
         self.hangman = self.Hangman_Versions[0]
 
     def draw(self, incorrect_guesses):
        
 
-    guess.hangman = guess.Hangman_Version[incorrect_guesses]
+    sguess.hangman = guess.Hangman_Version[incorrect_guesses]
     
-    print guess.hangman
+    print sguess.hangman
     
         if 
         
         incorrect_guesses == 5 :
             print( "You have been killed :(" )
     
-    
+    while letter_guess.isalpha() = False: 
+                word_guess = raw_input("No special characters allowed! Only enter a letter, please: ").lower()
+
+            
+            if 
+                letter_guess not in sguess.guessed_letters:
+                sguess.guessed_letters.append(letter_guess)
     
