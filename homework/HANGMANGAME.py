@@ -13,6 +13,17 @@ keyword=input("Please enter a word: ")
 print("_ "*(len(keyword)))
 
 
+guessed_word=set(guessed_word) 
+newset=set() 
+
+a=[] 
+guesses=["_ "for j in range(len(keyword))]
+
+def guess(letters): 
+    if not letters in keyword:
+        a.append("x")
+        hanging(len(a)) 
+
 def display(key, guessed_words):
 
         word_displayed = "  "
