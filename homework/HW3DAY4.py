@@ -1,8 +1,8 @@
 #PrimeFirstPrimeSecond question day 4 HW3
 
-def prime_1(a) 
+def prime_1(a) :
 
-if a > 1 :
+if a >1 :
   
   for i in range (2,a):
     if(a%i) == 0 :
@@ -12,16 +12,17 @@ if a > 1 :
 def prime_2(a) :
   
   for i in range(2,a):
-    if(b%i) == 0 :
+    if(a%i) == 0 :
       return
       
 lim1 = False 
 lim2 = False
 
 
-for i in range(0 , 1000) :
+for
+i in range(0 , 1000) :
   
-  if i >=0 and i<500 :
+  if i>=0 and i<500 :
     
     if lim1 == False:
       print("prime_1: " , end = " " )
@@ -34,11 +35,10 @@ for i in range(0 , 1000) :
           print(prime_2 : , end="")
           lim2 = True 
           
- prime_2(i)
+
 
 
 print()
-
 
 
 
