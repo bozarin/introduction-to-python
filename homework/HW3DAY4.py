@@ -9,9 +9,9 @@ if a > 1 :
       return
     
     
-def prime_2(b) :
+def prime_2(a) :
   
-  for i in range(2,b):
+  for i in range(2,a):
     if(b%i) == 0 :
       return
       
