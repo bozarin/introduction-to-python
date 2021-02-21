@@ -15,6 +15,13 @@ def prime_2(b) :
     if(b%i) == 0 :
       return
       
+lim1 = False 
+lim2 = False
+
+
+for i in range(0 , 1000) :
+  
+  if i >=0 and i<
 
 
 
